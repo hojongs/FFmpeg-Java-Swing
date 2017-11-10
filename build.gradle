@@ -1,0 +1,15 @@
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.googlecode.json-simple:json-simple:1.1'
+    compile 'net.bramp.ffmpeg:ffmpeg:0.6.2'
+    testCompile 'junit:junit:4.12'
+}
